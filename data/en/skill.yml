@@ -15,7 +15,7 @@ skill:
       percent : 70%
       
     # skill item loop
-    - name :  Design
+    - name :  monitorisation
       percent : 80%
       
     - name :  IOS Development
@@ -25,8 +25,8 @@ skill:
     - name :  Android Development
       percent : 75%
     # skill item loop
-    - name :  Android Development
+    - name :  Video
       percent : 75%  
     # skill item loop
-    - name :  Android Development
+    - name :  Social Media Platform Upload
       percent : 75% 
