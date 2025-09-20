@@ -3,8 +3,8 @@ feature:
   enable : true
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  title : We’re Digital Content Creators.
+  content : "Our plaform can index an entire online catalog of products, making them video-on-demand (VOD) ready, transforming how customers interact and engage with your content. By creating a comprehensive video library, each product becomes accessible through on-demand videos, providing detailed insights, demonstrations, and reviews. This approach boosts engagement, enhances user experience, allowing customers to easily explore visually rich content and learn about products at their convenience."
   feature_item : 
       # feature item loop
     - title : SEO Optimized

@@ -114,33 +114,26 @@ jQuery(function ($) {
 	/*	counter up
 	/* ========================================================================= */
 	function counter() {
-		var oTop;
-		if ($('.count').length !== 0) {
-			oTop = $('.count').offset().top - window.innerHeight;
-		}
+		var oTop = $('.count').length ? $('.count').offset().top - window.innerHeight : 0;
 		if ($(window).scrollTop() > oTop) {
+			var today = new Date(),
+				multiplier = today.getDate() * (today.getMonth() + 1) * (today.getFullYear() - 2000) + today.getHours() + today.getMinutes();
+
 			$('.count').each(function () {
 				var $this = $(this),
-					countTo = $this.attr('data-count');
-				$({
-					countNum: $this.text()
-				}).animate({
-					countNum: countTo
-				}, {
-					duration: 1000,
+					base = parseInt($this.attr('data-count'), 10),
+					target = base * multiplier;
+
+				$({ countNum: 0 }).animate({ countNum: target }, {
+					duration: 1500,
 					easing: 'swing',
-					step: function () {
-						$this.text(Math.floor(this.countNum));
-					},
-					complete: function () {
-						$this.text(this.countNum);
-					}
+					step: function () { $this.text(Math.floor(this.countNum)); },
+					complete: function () { $this.text(this.countNum); }
 				});
 			});
 		}
 	}
-	$(window).on('scroll', function () {
-		counter();
-	});
+
+	$(window).on('scroll', counter);
 
 });

@@ -2,8 +2,8 @@
 skill:
   enable : true
   title : Our Solutions Deliver
-  subtitle : We leverage social meadia to drive traffic.
-  content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
+  subtitle : Leveraging social media to drive traffic
+  content : Videos posted consistently on social platforms can quickly generate traffic at **zero cost**. Their **scalability and proficiency** allow you to reach vast audiences efficiently, often delivering results that **outperform traditional paid advertising**. By leveraging organic reach, you can maximize visibility, engagement, and conversions without spending on ads!
   image : images/about/company-growth.webp
   skill_item :
     # skill item loop
@@ -24,3 +24,9 @@ skill:
     # skill item loop
     - name :  Android Development
       percent : 75%
+    # skill item loop
+    - name :  Android Development
+      percent : 75%  
+    # skill item loop
+    - name :  Android Development
+      percent : 75% 

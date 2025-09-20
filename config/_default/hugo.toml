@@ -96,8 +96,8 @@ link = "plugins/google-map/map.js"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
+description = "WizzRev Shredder Social Media Ai Automated Marketing Software"
+author = "Shredder"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
@@ -123,27 +123,27 @@ map_marker = "images/marker.png"
 
 ############################# social icons ##########################
 [[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-facebook"
+link = "https://www.facebook.com/share/38y5BSTQ3B3Vddmq/"
+
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://x.com/WizzRev"
+
+[[params.social]]
+icon = "ti-youtube"
 link = "#"
 
 [[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-linkedin"
 link = "#"
 
 [[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-dribbble"
 link = "#"
 
 [[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-pinterest"
 link = "#"
 
 
