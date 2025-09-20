@@ -23,11 +23,18 @@
 
 	{{"<!-- Custom stylesheet - for your changes -->" |safeHTML}}
 	{{ $custom := resources.Get "css/custom.css" | minify }}
-  <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
+  	<link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
 
-	{{ "<!--Favicon-->" | safeHTML }}
-	<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-	<link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+	{{ "<!-- Favicons -->" | safeHTML }}
+	<link rel="icon" href="{{ `images/favicon.ico` | absURL }}" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ `images/favicon-16x16.png` | absURL }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ `images/favicon-32x32.png` | absURL }}">
+	<link rel="icon" type="image/png" sizes="96x96" href="{{ `images/favicon-96x96.png` | absURL }}">
+	<link rel="icon" type="image/png" sizes="192x192" href="{{ `images/android-chrome-192x192.png` | absURL }}">
+	<link rel="icon" type="image/png" sizes="512x512" href="{{ `images/android-chrome-512x512.png` | absURL }}">
+
+	<!-- Apple Touch Icon (for iOS home screen) -->
+	<link rel="apple-touch-icon" href="{{ `images/apple-icon.png` | absURL }}">
 
 	{{ with site.Params.google_analytics_id }}
 	{{ "<!-- Global Site Tag (gtag.js) - Google Analytics -->" | safeHTML }}
