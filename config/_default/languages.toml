@@ -1,0 +1,28 @@
+################################### English language #####################################
+[en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+[en.params]
+home = "Home"
+brand = "All brand icons are trademarks of their respective owners. The use of these trademarks does not indicate endorsement of the trademark holder, nor vice versa. Brand icons are used only to represent the company or product to which they refer."
+copyright = "Copyright &copy; 2025 Designed by Shredder & Developed by Wizzrev"
+
+
+
+################################### French language #####################################
+[fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+[fr.params]
+home = "Accueil"
+brand = "All brand icons are trademarks of their respective owners. The use of these trademarks does not indicate endorsement of the trademark holder, nor vice versa. Brand icons are used only to represent the company or product to which they refer."
+copyright = "Copyright &copy; 2025 Designed by Shredder & Developed by Wizzrev"
+
+
+
+
+

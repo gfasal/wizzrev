@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/wizzrev.webp"
+  bg_image : "images/backgrounds/wizzrev.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Let's explore the world"
+  content : "Turn product reviews into ready-to-publish marketing assets. WizzRev Shredder™ software automatically creates engaging videos with natural voice narration, custom thumbnails, and optimized metadata — helping you scale sales content quickly, consistently, and effortlessly!"
+  button:
+    enable : true
+    label : "Download Now"
+    link : "https://drive.usercontent.google.com/download?id=1tcaceNDaqdWbqTjbp9nMse6KlS8JOyD6&export=download&authuser=0"

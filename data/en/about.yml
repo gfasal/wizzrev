@@ -1,0 +1,16 @@
+############################# About ###################################
+about:
+  enable : true
+  title : About Us
+  about_item :
+  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
+    title : We Publish
+    content : With Shredder, we publish ready-to-use product review videos across social platforms. Each video comes with natural AI voiceovers, custom thumbnails, and optimized metadata to capture attention and build trust.
+
+  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+    title : We Develop
+    content : We develop automated marketing workflows that save time and boost consistency. Shredder transforms raw product data into professional video assets, so your team can focus on strategy while we handle the production.
+
+  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+    title : We Drive Traffic
+    content : By publishing engaging product reviews and branded content across multiple channels, Shredder helps drive targeted traffic to your links, generating qualified leads and increasing sales opportunities.

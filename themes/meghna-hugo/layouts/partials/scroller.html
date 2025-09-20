@@ -1,0 +1,35 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.scroller.scroller.enable }}
+{{ with $data.scroller.scroller }}
+<!-- Start Scroller Section -->
+<section id="scroller" class="call-to-action section-sm bg-1 overly" {{ partial `bg-image.html` (dict `Src` .bg_image_webp ) | safeHTMLAttr }}>
+  <!-- fallback background image -->
+  {{ partial "image.html" (dict "Src" .bg_image "Alt" .Title "Class" "d-none") }}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link }}" class="btn btn-main page-scroll">{{ .label }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Logos Grid -->
+    <div class="row mt-4 text-center">
+      {{ range .logos }}
+      <div class="col-xl-2 col-md-3 col-6 mb-4 client-logo">
+        {{ partial "image.html" (dict "Src" .image_png "Alt" .alt "Title" .title "Class" "img-fluid lozad") }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- End Scroller Section -->
+{{ end }}
+{{ end }}

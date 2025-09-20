@@ -1,0 +1,11 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  title : "Great Design & Incredible Features"
+  content : "With over 500,000 videos generated across 200+ item categories; from beauty products to collectible coins, our extensive portfolio has something for everyone. Don't miss out — explore our product playlists for more information!"
+  button:
+    enable : true
+    label : "Start a project with us"
+    link : "#contact"
