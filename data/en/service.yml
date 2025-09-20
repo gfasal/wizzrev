@@ -1,34 +1,34 @@
 ################################# Service #################################
 service:
   enable : true
-  title : Our Shredder Software
+  title : Shredder Software
   service_item :
     # service item loop
-    - name : WordPress Theme
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+    - name : Comprehensive Product Reviews
+      icon : ti-receipt
+      content : Shredder™ integrates all major online sellers, providing comprehensive reviews across a wide range of categories including electronics, home goods, fashion, and more—all fully automated for efficiency.
+          
     # service item loop
-    - name : Responsive Design
-      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+    - name : Natural AI Voice Narration
+      icon : ti-soundcloud 
+      content : Shredder™ generates natural-sounding AI voice narrations for every review, delivering engaging, professional content without manual recording.
+          
     # service item loop
-    - name : Media &amp; Advertisement
-      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+    - name : Affiliate Links for Support
+      icon : ti-link
+      content : Shredder™ automatically collects and embeds affiliate links into product reviews. Social media posts are published with these links preconfigured, allowing campaigns to start immediately.
+          
     # service item loop
-    - name : Graphic Design
-      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+    - name : AI-Driven Insights
+      icon : ti-palette 
+      content : Using advanced AI, Shredder™ analyzes customer comments and product data to produce accurate, unbiased reviews, generating ready-to-publish content efficiently.
+          
     # service item loop
-    - name : Apps Development
-      icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+    - name : Wide Publication Reach
+      icon : ti-world
+      content : Shredder™ publishes content across all major online video and social platforms, ensuring easy, automated distribution wherever your audience prefers to engage.
+          
     # service item loop
-    - name : Networking
-      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name : Privacy Focused
+      icon : ti-pulse 
+      content : Shredder™ respects your privacy no personal data is stored, no activity is tracked, and all collected information is used solely for automated campaign management in a secure and trustworthy manner.

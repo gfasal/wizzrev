@@ -4,11 +4,11 @@ portfolio:
   title : Our Works
   portfolio_item :
     # portfolio item loop
-    - name : Tag Design
+    - name : Tag Channels
       image : images/portfolio/portfolio-1.jpg
       image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      categories : ["Channels"]
+      content : Social Media Channels.
       link : "https://themefisher.com"
       
     # portfolio item loop
@@ -23,7 +23,7 @@ portfolio:
     - name : Clock Product
       image : images/portfolio/portfolio-3.jpg
       image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
+      categories : ["Channels", "development"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
       
@@ -39,12 +39,12 @@ portfolio:
     - name : Shopping Bag
       image : images/portfolio/portfolio-5.jpg
       image_webp : images/portfolio/portfolio-5.webp
-      categories : ["design"]
+      categories : ["Channels"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
       
     # portfolio item loop
-    - name : Tag Design
+    - name : Tag Channels
       image : images/portfolio/portfolio-6.jpg
       image_webp : images/portfolio/portfolio-6.webp
       categories : ["photography"]
@@ -60,17 +60,17 @@ portfolio:
       link : "#"
       
     # portfolio item loop
-    - name : Stationary Design
+    - name : Stationary Channels
       image : images/portfolio/portfolio-8.jpg
       image_webp : images/portfolio/portfolio-8.webp
-      categories : ["design", "development"]
+      categories : ["Channels", "development"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
       
     # portfolio item loop
-    - name : Tag Design
+    - name : Tag Channels
       image : images/portfolio/portfolio-2.jpg
       image_webp : images/portfolio/portfolio-2.webp
-      categories : ["design", "photography"]
+      categories : ["Channels", "photography"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"

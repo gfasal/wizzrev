@@ -6,20 +6,20 @@ funfacts:
   counter_item:
     # counter item loop
     - title : "Software Licenced"
-      icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
+      icon : "ti-credit-card" # themify icon pack : https://themify.me/themify-icons
       count : "1"
     
     # counter item loop
     - title : "Videos Uploaded"
-      icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
+      icon : "ti-video-camera" # themify icon pack : https://themify.me/themify-icons
       count : "100"
     
     # counter item loop
     - title : "Video Views"
-      icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
+      icon : "ti-control-play" # themify icon pack : https://themify.me/themify-icons
       count : "300"
     
     # counter item loop
     - title : "Hours"
-      icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
+      icon : "ti-time" # themify icon pack : https://themify.me/themify-icons
       count : "50"
